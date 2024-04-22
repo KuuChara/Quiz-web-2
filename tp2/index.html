@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ducky entertainment</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script type="text/Javascript" src="javascript/main.js" defer></script>
+    <link rel="stylesheet" href="stylesheet/style.css">
+</head>
+<body>
+    <header class=" bg-primary bg-gradient py-2">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start ">
+              <a href="index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-decoration-none">
+                <img src="images/ducky.png" width="32" height="40" alt="">
+              </a>
+      
+              <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="#" class="nav-link px-2 text-body">Games</a></li>
+                <li><a href="#" class="nav-link px-2 text-body">Store</a></li>
+                <li><a href="form.html" class="nav-link px-2 text-body">Support</a></li>
+                <li><a href="#" class="nav-link px-2 text-body">About</a></li>
+              </ul>
+      
+              <div class="text-end justify-content-center form-check form-switch">
+                <button type="button" class="btn btn-outline-light me-2">Login</button>
+                <button type="button" class="btn btn-light">Sign-up</button>
+                <input id="btnSwitch" class="form-check-input mt-2 py-2 px-3" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+              </div>
+            </div>
+          </div>
+    </header>
+    <main>
+        <div id="carousel" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/FF14.webp" height="600rem" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Available on PS4,PS5,Xbox and Windows</h5>
+                    <button type="button" class="btn btn-outline-light me-2">Buy now</button>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/FF16.jpeg" height="600rem" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Available on PS5</h5>
+                    <button type="button" class="btn btn-outline-light me-2">Buy now</button>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/FF7remake.jpeg" height="600rem" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Available on PS5</h5>
+                    <button type="button" class="btn btn-outline-light me-2">Buy now</button>
+                  </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <div id="news" class="d-flex flex-column p-5 justify-content-center">
+            <h2 class="text-center text-decoration-underline">NEWS</h2>
+            <div class="d-flex row flex-wrap align-items-center justify-content-center justify-content-lg-start ">
+                <div class="col">
+                    <a href=""><img src="images/maxresdefault.jpg" height="350rem" class="d-block w-100" alt=""></a>
+                    <p id="newsText" class="py-4 bg-secondary"></p>
+                </div>
+                <div class="col newsItem">
+                    <a href=""><img src="images/final-fantasy-16_patch-notes_1_03.avif" height="350rem" class="d-block w-100 " alt=""></a>
+                    <p id="newsText" class="py-4 bg-secondary"></p>
+                </div>
+                <div class="col newsItem">
+                    <a href=""><img src="images/FF7delay.jpeg" height="350rem" class="d-block w-100 " alt=""></a>
+                    <p id="newsText" class="py-4 bg-secondary"></p>
+                </div>
+            </div>
+            <div class="d-grid gap-2 col-4 mx-auto">
+              <button type="button" class="btn btn-outline-dark me-2">See all</button>
+            </div>
+          </div>
+          
+          <div class="assistance py-5">
+            <div class="text-assist py-2">
+              <h2 class="text-white mx-5 ">We are here to help</h2>
+              <p class="text-white mx-5">Obtenez des réponses aux questions les plus fréquentes,<br> vérifiez l'état des serveurs et <br> discutez avec un expert de l'assistance.</p>
+              <button type="button" class="btn btn-outline-light mx-5">Assistance</button>
+            </div>
+            
+          </div>
+    </main>
+    <footer class="d-flex bg-secondary flex-wrap justify-content-between align-items-center py-3 border-top">
+      <p class="col-md-4 mb-0 text-body-secondary">© 2024 Company, Inc</p>
+  
+      <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <img src="images/ducky.png" width="32" height="40" alt="">
+      </a>
+  
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Games</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Store</a></li>
+        <li class="nav-item"><a href="form.html" class="nav-link px-2 text-light">Support</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-light">About</a></li>
+      </ul>
+    </footer>
+</body>
+</html>
